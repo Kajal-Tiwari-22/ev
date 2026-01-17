@@ -24,3 +24,42 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.8s forwards;
+}
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+
+.input {
+  @apply w-full border border-gray-300 rounded-md px-4 py-2
+  focus:outline-none focus:ring-2 focus:ring-[#3b2f52];
+}
+.hex {
+  width: 84px;
+  height: 48px;
+  background: rgba(249, 115, 22, 0.12);
+  clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+}
+
+.hex.small {
+  width: 56px;
+  height: 32px;
+  opacity: 0.5;
+}
+
+.hex.outline {
+  background: transparent;
+  border: 2px solid rgba(249, 115, 22, 0.25);
+}
