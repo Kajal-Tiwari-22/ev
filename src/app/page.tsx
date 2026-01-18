@@ -186,14 +186,15 @@ export default function HomePage() {
               About <span className="text-indigo-600">Shandilya MedTech</span>
             </h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              <span className="font-semibold text-gray-900">Shandilya MedTech</span> is dedicated to transforming healthcare technology with innovative solutions
-              that improve patient care, efficiency, and accessibility. Our mission is to make modern medical devices and wellness tools reliable, easy to use, and
-              sustainable for hospitals and clinics across the country.
+              <span className="font-semibold text-gray-900">Shandilya MedTech</span> is dedicated to delivering innovative technology solutions
+              that enhance efficiency, reliability, and accessibility. Our mission is to build modern tools and systems that are easy to use,
+              dependable, and sustainable for organizations across the country.
             </p>
+
             <p className="text-gray-700 leading-relaxed">
-              With a focus on <span className="text-indigo-600 font-semibold">quality, precision, and innovation</span>, our products are designed for long-lasting performance,
-              low maintenance, and maximum impact. Join the growing community of healthcare professionals who trust <span className="font-semibold">Shandilya MedTech</span>
-              for cutting-edge medical technology.
+              With a focus on <span className="text-indigo-600 font-semibold">quality, precision, and innovation</span>, our solutions are designed
+              for long-lasting performance, low maintenance, and maximum impact. Join the growing community of professionals who trust
+              <span className="font-semibold"> Shandilya MedTech</span> for cutting-edge technology.
             </p>
           </motion.div>
 

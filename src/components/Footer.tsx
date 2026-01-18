@@ -5,8 +5,12 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaEnvelope,
-  FaClock
+  FaClock,
+  FaYoutube,
+  FaFacebookF,
+  FaInstagram
 } from 'react-icons/fa';
+
 
 export default function Footer() {
   return (
@@ -21,7 +25,7 @@ export default function Footer() {
           viewport={{ once: true }}
           className="grid gap-14 md:grid-cols-4 pb-16"
         >
-         
+
           <div>
             <img
               src="/image/logo.png"
@@ -114,17 +118,42 @@ export default function Footer() {
             © {new Date().getFullYear()} Shandilya MedTech Pvt Ltd. All rights reserved.
           </p>
 
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <span className="hover:text-orange-500 cursor-pointer">
-              Privacy Policy
-            </span>
-            <span className="hover:text-orange-500 cursor-pointer">
-              Terms & Conditions
-            </span>
-          </div>
-        </div>
+          
 
-      </div>
+            {/* Social Icons */}
+            <div className="flex space-x-4 text-lg">
+            
+
+              <a
+                href="https://www.facebook.com/61585980602516/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-500 transition"
+              >
+                <FaFacebookF />
+              </a>
+
+              <a
+                href="https://www.instagram.com/shandilya_private_limited?igsh=MXVmZnI3ZXZoOHozZg=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-pink-500 transition"
+              >
+                <FaInstagram />
+              </a>
+            </div>
+
+            <div className="flex space-x-6 mt-4 md:mt-0">
+              <span className="hover:text-orange-500 cursor-pointer">
+                Privacy Policy
+              </span>
+              <span className="hover:text-orange-500 cursor-pointer">
+                Terms & Conditions
+              </span>
+            </div>
+          </div>
+
+        </div>
     </footer>
   );
 }
