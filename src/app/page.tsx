@@ -185,17 +185,19 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-gray-900">
               About <span className="text-indigo-600">Shandilya MedTech</span>
             </h2>
+
             <p className="text-gray-700 mb-4 leading-relaxed">
-              <span className="font-semibold text-gray-900">Shandilya MedTech</span> is dedicated to delivering innovative technology solutions
-              that enhance efficiency, reliability, and accessibility. Our mission is to build modern tools and systems that are easy to use,
-              dependable, and sustainable for organizations across the country.
+              <span className="font-semibold text-gray-900">Shandilya MedTech</span> is dedicated to delivering innovative electric mobility and technology solutions
+              that enhance efficiency, reliability, and accessibility. We specialize in <span className="font-semibold">EV auto-rickshaws, EV scooties, advanced battery systems,</span>
+              and <span className="font-semibold">GPS tracking solutions</span> designed to support modern transportation and fleet management needs.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              With a focus on <span className="text-indigo-600 font-semibold">quality, precision, and innovation</span>, our solutions are designed
-              for long-lasting performance, low maintenance, and maximum impact. Join the growing community of professionals who trust
-              <span className="font-semibold"> Shandilya MedTech</span> for cutting-edge technology.
+              With a strong focus on <span className="text-indigo-600 font-semibold">quality, precision, and innovation</span>, our EV vehicles, batteries, and GPS trackers
+              are built for long-lasting performance, low maintenance, and maximum operational efficiency. Join the growing community of individuals and businesses who trust
+              <span className="font-semibold"> Shandilya MedTech</span> for reliable, future-ready electric mobility and smart tracking technology.
             </p>
+
           </motion.div>
 
           {/* Image */}
